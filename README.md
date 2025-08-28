@@ -145,3 +145,44 @@ The following diagram illustrates the key use cases for the booking management s
 - Manage user accounts
 - Generate reports
 - Manage system configuration
+
+## Acceptance Criteria
+
+Acceptance Criteria are predefined conditions that a software product must satisfy to be accepted by stakeholders. They serve as the definitive requirements that determine when a user story or feature is complete and working as intended.
+
+### Importance in Requirement Analysis
+
+Acceptance Criteria play a crucial role in requirement analysis for several reasons:
+
+1. **Clarity and Precision**: Provide unambiguous definitions of what constitutes a completed feature
+2. **Testability**: Serve as the basis for creating test cases and validation procedures
+3. **Scope Management**: Prevent scope creep by clearly defining feature boundaries
+4. **Stakeholder Alignment**: Ensure all parties agree on what constitutes a successfully implemented feature
+5. **Quality Assurance**: Establish measurable standards for feature completion and performance
+
+### Example: Checkout Feature Acceptance Criteria
+
+For the checkout feature in our booking management system, the acceptance criteria might include:
+
+1. **Payment Processing**
+   - Given a user has selected items to book, when they proceed to checkout, then the system shall display a summary of their booking with total cost
+   - Given a user is at the checkout page, when they enter valid payment information, then the system shall process the payment successfully
+   - Given a user enters invalid payment information, when they attempt to complete checkout, then the system shall display an appropriate error message
+
+2. **Confirmation and Notification**
+   - Given a successful payment, when the transaction completes, then the system shall generate a booking confirmation number
+   - Given a completed booking, when the transaction finishes, then the system shall send a confirmation email to the user
+
+3. **Error Handling**
+   - Given a network interruption during payment processing, when connectivity is restored, then the system shall provide options to retry or cancel the transaction
+   - Given an expired payment session, when a user attempts to complete checkout, then the system shall redirect to the booking summary page
+
+4. **User Experience**
+   - Given a user is at checkout, when they navigate away from the page, then the system shall preserve their cart contents for at least 24 hours
+   - Given a user completes checkout, when they return to the site, then the system shall display their booking in the "My Bookings" section
+
+5. **Security Requirements**
+   - Given any step in the checkout process, when handling sensitive information, then the system shall use encrypted connections (HTTPS)
+   - Given payment information, when stored in the system, then it shall be encrypted following PCI DSS compliance standards
+
+These acceptance criteria provide clear, testable conditions that must be met for the checkout feature to be considered complete and satisfactory.
