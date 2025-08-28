@@ -110,3 +110,38 @@ Non-functional requirements describe how the system should perform - the quality
 * Compatibility Requirements
   * The system shall be compatible with current versions of major web browsers
   * The system shall provide a responsive design for mobile devices
+
+## Use Case Diagrams
+
+Use Case Diagrams are visual representations of the interactions between system actors (users or external systems) and the system itself. They illustrate the various ways that users might interact with a system to achieve specific goals.
+
+### Benefits of Use Case Diagrams
+
+1. **Visual Communication**: Provide an easily understandable overview of system functionality
+2. **Requirement Clarification**: Help identify and clarify system requirements
+3. **Stakeholder Alignment**: Ensure all parties have a shared understanding of system capabilities
+4. **Scope Definition**: Help define the boundaries of the system
+5. **Testing Foundation**: Serve as a basis for developing test cases
+
+### Booking System Use Case Diagram
+
+The following diagram illustrates the key use cases for the booking management system:
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
+**Actors in the System:**
+- Guest (unauthenticated user)
+- Registered User
+- Administrator
+- Payment Gateway (external system)
+
+**Key Use Cases:**
+- Browse available resources
+- Create account
+- Login to system
+- Make booking
+- Cancel booking
+- Process payment
+- Manage user accounts
+- Generate reports
+- Manage system configuration
