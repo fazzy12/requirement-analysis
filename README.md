@@ -20,4 +20,4 @@ Requirement Analysis plays a vital role in the SDLC for several reasons:
 5. **Quality Assurance**: Forms the basis for test cases and acceptance criteria
 6. **Scope Management**: Helps prevent scope creep by clearly defining project boundaries
 
-The process typically involves gathering requirements from stakeholders, analyzing them for completeness and consistency, prioritizing needs, and documenting them in a clear, unambiguous manner that can be understood by both technical and non-technical audiences.
+The process typically involves gathering requirements from stakeholders, analyzing them for completeness and consistency, prioritizing needs, and documenting them in a clear, unambiguous manner that can be understood by both technical and non-technical audiences..
