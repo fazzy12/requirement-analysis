@@ -56,3 +56,57 @@ Requirement Analysis involves several critical activities that transform stakeho
 
 * **Requirement Validation**
   The critical review process where stakeholders confirm that documented requirements accurately represent their needs. This includes techniques like reviews, walkthroughs, and developing acceptance criteria to ensure requirements are testable and verifiable.
+
+## Types of Requirements
+
+Software requirements are typically categorized into two main types: functional requirements and non-functional requirements.
+
+### Functional Requirements
+
+Functional requirements describe what the system should do - the specific behaviors, functions, and features that the system must implement. These are typically expressed as services, tasks, or functions that the system is required to perform.
+
+**Examples for a Booking Management System:**
+
+* User Registration and Authentication
+  * The system shall allow users to create an account with email and password
+  * The system shall provide password recovery functionality
+  * The system shall allow users to log in and log out
+
+* Booking Management
+  * The system shall allow users to search for available resources
+  * The system shall allow users to make, modify, and cancel bookings
+  * The system shall display booking confirmation details
+
+* Payment Processing
+  * The system shall integrate with payment gateways to process transactions
+  * The system shall generate and email receipts for completed transactions
+
+* Administration
+  * The system shall allow administrators to view and manage all bookings
+  * The system shall allow administrators to generate booking reports
+
+### Non-Functional Requirements
+
+Non-functional requirements describe how the system should perform - the quality attributes, constraints, and performance goals that the system must meet. These define the system's quality characteristics rather than specific behaviors.
+
+**Examples for a Booking Management System:**
+
+* Performance Requirements
+  * The system shall respond to user requests within 2 seconds under normal load
+  * The system shall support up to 1000 concurrent users
+
+* Security Requirements
+  * The system shall encrypt all sensitive user data both in transit and at rest
+  * The system shall implement role-based access control for different user types
+
+* Reliability Requirements
+  * The system shall maintain 99.9% uptime during business hours
+  * The system shall automatically save user progress during multi-step processes
+
+* Usability Requirements
+  * The system interface shall be intuitive enough for novice users to complete a booking within 5 minutes
+  * The system shall provide clear error messages and recovery options
+
+* Compatibility Requirements
+  * The system shall be compatible with current versions of major web browsers
+  * The system shall provide a responsive design for mobile devices
